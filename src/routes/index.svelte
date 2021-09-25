@@ -21,10 +21,9 @@
     color: #f2f2f2
     text-align: center
   h1
-    color: #0aff91
+    color: #00ff9d
   code
     background: #282b33
-    // border: 1px solid rgba(#8c99ba, 0.1)
     padding: 2px 5px
     border-radius: 4px
 </style>
