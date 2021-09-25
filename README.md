@@ -9,10 +9,11 @@
 
 [Svelte template](https://github.com/probablykasper/svelte-template)
 
-## Limitations
+## Recommended VSCode extensions
 
-- Source maps of `.svelte` files don't support CSS preprocessors ([vite#649](https://github.com/vitejs/vite/issues/649)) and Pug
-- ESLint does not work for Linting for code-quality rules is not supported. Would need to use ESLint with eslint-plugin-svelte3, but that plugin needs to work with svelte-preprocess ([eslint-plugin-svelte3#10](https://github.com/sveltejs/eslint-plugin-svelte3/issues/10))
+- `svelte.svelte-vscode` for Svelte
+- `syler.sass-indented` for Sass
+- `esbenp.prettier-vscode` for Prettier
 
 ## Commands
 
