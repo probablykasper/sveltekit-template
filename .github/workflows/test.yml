@@ -8,10 +8,7 @@ on:
 
 jobs:
   test:
-    strategy:
-      fail-fast: false
-      platform: ubuntu-latest
-    runs-on: ${{ matrix.platform }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
