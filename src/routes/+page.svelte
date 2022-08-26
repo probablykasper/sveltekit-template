@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { onMount } from 'svelte'
+	import { onMount } from 'svelte'
 
-  let count = 0
-  onMount(() => {
-    const interval = setInterval(() => count++, 1000)
-    return () => clearInterval(interval)
-  })
+	let count = 0
+	onMount(() => {
+		const interval = setInterval(() => count++, 1000)
+		return () => clearInterval(interval)
+	})
 </script>
 
 <h1>SvelteKit Template</h1>

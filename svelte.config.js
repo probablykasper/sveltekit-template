@@ -3,12 +3,12 @@ import preprocess from 'svelte-preprocess'
 
 /** @type {import('@sveltejs/kit').Config} */
 export default {
-  preprocess: preprocess(),
+	preprocess: preprocess(),
 
-  kit: {
-    adapter: adapter(),
-    prerender: {
-      default: true,
-    },
-  },
+	kit: {
+		adapter: adapter(),
+		prerender: {
+			default: true,
+		},
+	},
 }
