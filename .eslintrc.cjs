@@ -5,7 +5,7 @@ module.exports = {
   plugins: ['svelte3', '@typescript-eslint'],
   overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],
   settings: {
-    'svelte3/typescript': true,
+    'svelte3/typescript': () => require('typescript'),
     'svelte3/ignore-styles': (attributes) => {
       // https://github.com/sveltejs/eslint-plugin-svelte3/issues/10
       return attributes && attributes.lang && attributes.lang !== 'css'
