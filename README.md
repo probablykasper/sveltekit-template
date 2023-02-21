@@ -2,7 +2,7 @@
 
 - **SvelteKit**
 - **TypeScript**
-- **`svelte-preprocess` support** with Sass installed by default
+- **Preprocessing** with Sass installed by default
 - **ESLint**
 - **Prettier**
 - **Static adapter**
