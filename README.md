@@ -7,8 +7,6 @@
 - **Prettier**
 - **Static adapter**
 
-[Svelte template](https://github.com/probablykasper/svelte-template)
-
 ## Recommended VSCode extensions
 
 - `svelte.svelte-vscode` for Svelte
